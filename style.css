@@ -67,4 +67,15 @@ button, input{
     height: 72px;
     transition: 0.3s;
 }
-:is(input:focus, input:valid)~
+:is(input:focus, input:valid) ~ label {
+    translate: -40px -40px;
+    scale: 0.875;
+}
+
+input:focus{
+    border-color: rgb(255 255 255 / 76%);
+}
+
+:is(input:focus, input:valid) ~span {
+    color: rgb(255, 255, 255 / 76%);
+}
