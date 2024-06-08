@@ -15,3 +15,16 @@ button, input{
     font-size: 16px;
     outline: none;
 }
+
+.signup{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    max-width: 460px;
+    padding: 200px 40px;
+    background: rgb(68 65 70 / 28%);
+    backdrop-filter: blur(50px);
+}
