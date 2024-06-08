@@ -28,3 +28,19 @@ button, input{
     background: rgb(68 65 70 / 28%);
     backdrop-filter: blur(50px);
 }
+
+.signup > h2{
+    margin: 0 0 6px;
+    color: rgb(255 255 255 / 96%);
+}
+
+.signup > h3{
+    margin: 0 0 30px;
+    color: rgb(255 255 255 / 40%);
+}
+
+.form{
+    margin: 0;
+    display: grid;
+    gap: 16px;
+}
