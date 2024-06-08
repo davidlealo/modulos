@@ -79,3 +79,32 @@ input:focus{
 :is(input:focus, input:valid) ~span {
     color: rgb(255, 255, 255 / 76%);
 }
+
+.textbox label {
+    position: absolute;
+    top: 50%;
+    left: 36px;
+    translate: 0 -50%;
+    color: rgb(255 255 255 / 40%);
+    pointer-events: none;
+    transition: 0.4s;
+}
+
+.form button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-radius: 6px;
+    background: rgb(255 255 255 / 12%);
+    color: #f9f9f9;
+    border: 0;
+}
+
+.signup p {
+    color: rgb(255 255 255 / 50%);
+}
+
+.signup p > a {
+    color: rgb(255 255 255 / 96%);
+}
