@@ -22,3 +22,22 @@
 .boton1:focus{
     background: rgb(255 255 255 / 16%);
 }
+
+#boton2{
+    background: rgb(45 30 200 / 45%);
+    padding: 30px;
+    color:aliceblue;
+    font-weight: 700;
+    border: 1cap;
+    border-color: azure;
+}
+
+#boton2:hover{
+    background-color: aquamarine;
+    background-position: 3in;
+    border-radius: 85%;
+    color: brown;
+    font-size: xx-large;
+    font-weight: 500;
+    font-style: unset;
+}
