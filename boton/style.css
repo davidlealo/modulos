@@ -46,4 +46,9 @@
     font-size: larger;
     font-weight: 700;
     padding: 5%;
+    background: content-box radial-gradient(crimson, skyblue);
+    width: 200px;
+    height: 100px;
+    border-radius: 5%;
+    border-color: aliceblue;
 }
