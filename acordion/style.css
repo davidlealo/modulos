@@ -21,3 +21,14 @@
 .card:hover{
   flex-grow: 7;
 }
+
+.card-content > .tittle{
+  margin-left: 100px;
+  translate: 0 100%;
+  opacity: 0;
+}
+
+.card:hover .tittle{
+  opacity: 1;
+  translate: 0 0;
+}
