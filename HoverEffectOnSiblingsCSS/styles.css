@@ -1,15 +1,16 @@
-.container{
+.container {
     display: flex;
     background-color: aliceblue;
     align-items: center;
     width: 90%;
-justify-content: space-around;}
+    justify-content: space-around;
+}
 
-.container:hover > *:not(:hover) {
+.container:hover>*:not(:hover) {
     opacity: 0.4;
-    }
+}
 
-.box{
+.box {
     border-radius: 5%;
     background-color: blueviolet;
     width: 200px;
@@ -22,7 +23,7 @@ justify-content: space-around;}
     transition: opacity 0.6s ease;
 }
 
-body{
+body {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -30,7 +31,7 @@ body{
     padding-top: 10%;
 }
 
-div{
+div {
     border-color: aliceblue;
-    
+
 }
