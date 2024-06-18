@@ -5,6 +5,10 @@
     width: 90%;
 justify-content: space-around;}
 
+.container:hover > *:not(:hover) {
+    opacity: 0.4;
+    }
+
 .box{
     border-radius: 5%;
     background-color: blueviolet;
@@ -15,7 +19,9 @@ justify-content: space-around;}
     align-items: center;
     color: aliceblue;
     margin: 10px;
+    transition: opacity 0.6s ease;
 }
+
 body{
     background-color: black;
     display: flex;
