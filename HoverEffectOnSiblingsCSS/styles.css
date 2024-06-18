@@ -1,9 +1,18 @@
 .container{
     display: flex;
     justify-content: space-around;
+    background-color: aliceblue;
+    width: 90%;
 }
 
 .box{
     border-radius: 5%;
     background-color: blueviolet;
+    width: 30px;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
