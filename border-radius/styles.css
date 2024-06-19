@@ -1,10 +1,38 @@
 body{
     background-color: darkblue;
-    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 .box{
     width: 300px;
     height: 200px;
     background-color: yellowgreen;
+    margin: 30px;
+}
+
+#box1{
+    border-radius: none;
+}
+
+#box2{
+    border-radius: 32px;
+}
+
+#box3{
+    border-radius: 32px 64px;
+}
+
+#box4{
+    border-radius: 64px 96px 128px 32px;
+}
+
+#box5{
+    border-radius: 50%;
+}
+
+#box6{
+    border-radius: 10px 100px / 120px 100px;
 }
