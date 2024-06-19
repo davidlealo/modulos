@@ -3,3 +3,8 @@ section{
     width: 600px;
     height: 430px;
 }
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+}
