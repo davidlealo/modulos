@@ -1,5 +1,5 @@
 /*
-Ejercicio desde --> https://www.instagram.com/p/C7vohyvvnFz/  
+Ejercicio desde --> https://www.instagram.com/p/C7vohyvvnFz/ px 
 */
 
 body{
@@ -15,6 +15,7 @@ body{
 
 .flex-container{
     display: flex;
+    width: 100%;
     border: 5px solid azure;
     margin: 5px;
     padding: 3px;
@@ -22,4 +23,16 @@ body{
     gap: 8px;
     justify-content: center;
     align-items: center;
+}
+
+.name{
+    flex: 1 0 140px;
+}
+
+.email{
+    flex: 1 0 120px;
+}
+
+button{
+    flex: 1 0 60px;
 }
