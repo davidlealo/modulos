@@ -1,11 +1,25 @@
-.body{
+/*
+Ejercicio desde --> https://www.instagram.com/p/C7vohyvvnFz/  
+*/
+
+body{
     width: 100%;
     min-height: 100vh;
     background: black;
     display: grid;
+}
+
+.body{
     place-self: center;
 }
 
 .flex-container{
     display: flex;
+    border: 5px solid azure;
+    margin: 5px;
+    padding: 3px;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
 }
