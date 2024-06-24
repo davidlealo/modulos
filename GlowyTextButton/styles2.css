@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    margin: 0;
+}
+
+.button-container {
+    position: relative;
+}
+
+.glowy-button {
+    background: #222;
+    border: 2px solid #ff005a;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.glowy-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, rgba(255, 0, 90, 0.75), transparent);
+    transition: all 0.3s ease;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.glowy-button:hover::before {
+    filter: blur(20px);
+}
