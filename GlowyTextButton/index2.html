@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowy Button</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    margin: 0;
+}
+
+.glowy-button {
+    background: linear-gradient(45deg, #ff005a, #ffcd00);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgba(255, 0, 90, 0.5), 0 0 30px rgba(255, 205, 0, 0.5);
+}
+
+.glowy-button::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, rgba(255, 0, 90, 0.75), rgba(255, 205, 0, 0.75));
+    transition: all 0.5s ease;
+    filter: blur(30px);
+    z-index: -1;
+}
+
+.glowy-button:hover {
+    box-shadow: 0 0 30px rgba(255, 0, 90, 0.75), 0 0 50px rgba(255, 205, 0, 0.75);
+}
+
+.glowy-button:hover::before {
+    top: -100%;
+    left: -100%;
+}
+
+    </style>
+</head>
+<body>
+    <button class="glowy-button">Glowy Button</button>
+</body>
+</html>
