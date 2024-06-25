@@ -45,10 +45,11 @@ body {
 
 div{
     padding: 5px;
+    background-color: #ff005a;
 }
-.h1{
+.normal{
     font-size: xx-large;
     font-weight: 400;
     color: #c3bfbf;
-
+    mix-blend-mode: normal;
 }
