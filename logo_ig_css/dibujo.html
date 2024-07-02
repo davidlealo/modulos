@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        div{
+        .barba{
             margin: 300px;
             height: 40rem;
             width: 40rem;
@@ -19,7 +19,7 @@
             position: relative;
         }
 
-        div:before{
+        .barba:before{
            content: "";
             border: 1rem solid #fff;
             border-radius: 30%;
@@ -33,7 +33,7 @@
             bottom: 0;
         }
 
-        div:after{
+        .barba:after{
            content: "";
             border: 1rem solid #fff;
             border-radius: 100%;
@@ -72,51 +72,45 @@
         }
 
         .diente{
-            width: 10px;
-            height: 10px;
+            width: 1rem;
+            height: 2.5rem;
             background: #fff;
-            border-radius: 30%;
+            border-radius: 0 0 0.5rem 0.5rem;
             position: absolute;
             bottom: 4rem;
         }
 
         .diente:nth-child(3){
-            left: 5rem;
+            left: 15rem;
         }
 
         .diente:nth-child(4){
-            left: 7rem;
+            left: 17rem;
         }
 
         .diente:nth-child(5){
-            left: 9rem;
+            left: 19rem;
         }
 
         .diente:nth-child(6){
-            left: 11rem;
+            left: 21rem;
         }
 
         .diente:nth-child(7){
-            left: 13rem;
-        }
-
-        .dientes{
-            display: flex;
+            left: 23rem;
         }
     </style>
     <title>Cara</title>
 </head>
 <body>
-    <div>
+    <div class="barba">
         <span class="primero"></span>
         <span class="segundo"></span>
-        <div class="dientes">
             <div class="diente"></div>
             <div class="diente"></div>
             <div class="diente"></div>
             <div class="diente"></div>
             <div class="diente"></div>
-        </div>
         
     </div>
 </body>
