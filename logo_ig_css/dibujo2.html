@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .barba{
+            margin: 300px;
+            height: 40rem;
+            width: 40rem;
+            background: yellow;
+            border-radius: 30%;
+            position: relative;
+        }
+
+        .barba:before{
+           content: "";
+            border: 1rem solid #fff;
+            border-radius: 30%;
+            width: 30rem;
+            height: 21rem;
+            left: 0;
+            right: 0;
+            position: absolute;
+            margin: auto;
+            top: 8rem;
+            bottom: 0;
+        }
+
+        .barba:after{
+           content: "";
+            border: 1rem solid #fff;
+            border-radius: 100%;
+            width: 25rem;
+            height: 1rem;
+            left: 0;
+            right: 0;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 5px;
+        }
+
+        .primero{
+           content: "";
+            border: 3rem solid #fff;
+            border-radius: 100%;
+            width: 0;
+            height: 0;
+            right: 5rem;
+            position: absolute;
+            margin: auto;
+            top: 5rem;
+        }
+
+        .segundo{
+           content: "";
+            border: 3rem solid #fff;
+            border-radius: 100%;
+            width: 0;
+            height: 0;
+            left: 5rem;
+            position: absolute;
+            margin: auto;
+            top: 5rem;
+        }
+
+        .diente{
+            width: 1rem;
+            height: 2.5rem;
+            background: #fff;
+            border-radius: 0 0 0.5rem 0.5rem;
+            position: absolute;
+            bottom: 19rem;
+        }
+
+        .diente:nth-child(3){
+            left: 15rem;
+        }
+
+        .diente:nth-child(4){
+            left: 17rem;
+        }
+
+        .diente:nth-child(5){
+            left: 19rem;
+        }
+
+        .diente:nth-child(6){
+            left: 21rem;
+        }
+
+        .diente:nth-child(7){
+            left: 23rem;
+        }
+    </style>
+    <title>Cara</title>
+</head>
+<body>
+    <div class="barba">
+        <span class="primero"></span>
+        <span class="segundo"></span>
+            <div class="diente"></div>
+            <div class="diente"></div>
+            <div class="diente"></div>
+            <div class="diente"></div>
+            <div class="diente"></div>
+        
+    </div>
+</body>
+</html>
