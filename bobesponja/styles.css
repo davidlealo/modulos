@@ -1,3 +1,14 @@
+/* Colores de Bob Esponja:
+URL(https://medium.com/krrrunch/bob-esponja-y-patricio-estrella-tienen-su-propio-color-pantone-a82f631e4139)
+Cuerpo: f6e74f
+Líneas: 0c0c0c 
+Ojos: 43bfec 
+Sonrojo: d55e3a 
+Manchas: b8b919
+
+*/
+
+
 .cuerpo-bob{
     /* Margin para centrar el div*/
     margin: auto;
@@ -7,5 +18,5 @@
     height: 40rem;
     
     /* Color de fondo de Bob Esponja*/
-    background-color: yellow;
+    background-color: #F8E867;
 }
