@@ -1,0 +1,11 @@
+.cuerpo-bob{
+    /* Margin para centrar el div*/
+    margin: auto;
+    
+    /* Tamaño del cuerpo*/
+    width: 30rem;
+    height: 40rem;
+    
+    /* Color de fondo de Bob Esponja*/
+    background-color: yellow;
+}
