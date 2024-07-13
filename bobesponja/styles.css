@@ -9,14 +9,40 @@ Manchas: b8b919
 */
 
 
-.cuerpo-bob{
+.cuerpo-bob {
     /* Margin para centrar el div*/
     margin: auto;
-    
+
     /* Tamaño del cuerpo*/
     width: 30rem;
     height: 40rem;
-    
+
     /* Color de fondo de Bob Esponja*/
-    background-color: #F8E867;
+    background-color: #f6e74f;
+}
+
+.mancha {
+
+    /* Tamaño del cuerpo*/
+    border-radius: 50%;
+
+    /* Color de manchas de Bob Esponja*/
+    background-color: #b8b919;
+}
+
+.grande {
+    /* Tamaño de la mancha*/
+    width: 5rem;
+    height: 5rem;
+
+    border-radius: 110px 70px / 200px 100px;
+
+}
+
+.chico {
+    /* Tamaño de la mancha*/
+    width: 2rem;
+    height: 2rem;
+
+    border-radius: 64px 96px 128px 32px;
 }
