@@ -45,4 +45,12 @@ Manchas: b8b919
     height: 2rem;
 
     border-radius: 64px 96px 128px 32px;
+
+    margin-left: 1rem;
+}
+
+.manchas{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
 }
