@@ -90,7 +90,7 @@ Manchas: b8b919
     width: 9rem;
     height: 9rem;
     border-radius: 50%;
-    border: #0c0c0c 1.5px solid;
+    border: #0c0c0c .4rem solid;
 }
 
 .ojos{
@@ -102,11 +102,11 @@ Manchas: b8b919
 
 .iris{
     content: "";
-    border: 1.5px solid #000;
+    border: .4rem solid #000;
     border-radius: 100%;
     width: 4rem;
     height: 4rem;
-    left: 2rem;
+    left: .5rem;
     position: relative;
     margin: auto;
     top: 3rem;
