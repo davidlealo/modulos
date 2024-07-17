@@ -32,7 +32,7 @@ Manchas: b8b919
 
 .grande {
     /* Tamaño de la mancha*/
-    width: 3.5rem;
+    width: 4.5rem;
     height: 2.8rem;
 
     border-radius: 110px 170px / 210px 100px;
@@ -41,8 +41,8 @@ Manchas: b8b919
 
 .chico {
     /* Tamaño de la mancha*/
-    width: 1.5rem;
-    height: 1.8rem;
+    width: 2.5rem;
+    height: 2.8rem;
 
     border-radius: 164px 96px 148px 32px;
 
@@ -61,22 +61,20 @@ Manchas: b8b919
         
     margin: auto;
     top: 2rem;
-    bottom: 1.5rem;
-    right: .5rem;
+    left: 1.5rem;
 }
 
 .manchas-2{
     position: relative;
         
     top: 20rem;
-    bottom: 1.5rem;
-    right: .5rem;
+    left: 1.5rem;
 }
 
-.manchas-3{
+.machas-3{
     position: relative;
         
-    top: 2rem;
+    top: 1rem;
     left: 25rem;
 }
 
