@@ -55,3 +55,12 @@ Manchas: b8b919
     flex-direction: column;
     padding: 0.5rem;
 }
+
+.mancha-1{
+    position: absolute;
+        
+    margin: auto;
+    top: 2rem;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    }
