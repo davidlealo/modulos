@@ -84,3 +84,10 @@ Manchas: b8b919
     top: 10rem;
     left: 25rem;
 }
+
+.ojo{
+    background-color: aliceblue;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
