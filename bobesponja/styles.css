@@ -91,3 +91,10 @@ Manchas: b8b919
     height: 9rem;
     border-radius: 50%;
 }
+
+.ojos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
