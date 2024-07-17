@@ -102,7 +102,7 @@ Manchas: b8b919
 
 .iris{
     content: "";
-    border: .4rem solid #000;
+    border: .4rem solid #0c0c0c;
     border-radius: 100%;
     width: 4rem;
     height: 4rem;
@@ -112,4 +112,17 @@ Manchas: b8b919
     top: 3rem;
     bottom: 1rem;
     background-color: #43bfec;
+}
+
+.centro-iris{
+    content: "";
+    border: .4rem solid #0c0c0c;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    background-color: #0c0c0c;
+    margin: auto;
+    position: relative;
+    left: .1rem;
+    top: .4rem;
 }
