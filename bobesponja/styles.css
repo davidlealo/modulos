@@ -56,11 +56,33 @@ Manchas: b8b919
     padding: 0.5rem;
 }
 
-.mancha-1{
-    position: absolute;
+.manchas-1{
+    position: relative;
         
     margin: auto;
     top: 2rem;
     bottom: 1.5rem;
-    right: 1.5rem;
-    }
+    right: .5rem;
+}
+
+.manchas-2{
+    position: relative;
+        
+    top: 20rem;
+    bottom: 1.5rem;
+    right: .5rem;
+}
+
+.manchas-3{
+    position: relative;
+        
+    top: 2rem;
+    left: 25rem;
+}
+
+.manchas-4{
+    position: relative;
+        
+    top: 10rem;
+    left: 25rem;
+}
