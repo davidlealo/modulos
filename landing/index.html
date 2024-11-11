@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
     <style>
-
         body {
             font-family: Inter, sans-serif;
             height: 100vh;
@@ -15,6 +14,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            display: flex;
+            flex-direction: column;
         }
 
         img {
@@ -37,7 +38,6 @@
             height: 100%;
             border-radius: 30px;
             overflow: hidden;
-
             display: flex;
             align-items: flex-end;
             flex-grow: 1;
@@ -48,9 +48,10 @@
             --transition-timing: 0.35s;
         }
 
-        /* .card.active {
-  flex-grow: 100;
-} */
+        .card.active {
+            flex-grow: 100;
+        }
+
         .card:hover {
             flex-grow: 7;
         }
